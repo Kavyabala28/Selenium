@@ -21,8 +21,10 @@ public class SortTheList {
 		driver.manage().window().maximize();
 		
 		// Sorted List
-		Select dropDown = new Select(driver.findElement(By.xpath("//select[@id='animals']")));
+		//Select dropDown = new Select(driver.findElement(By.xpath("//select[@id='animals']")));
 		
+		// Un sorted List
+		Select dropDown = new Select(driver.findElement(By.xpath("//select[@id='colors']")));	
 		ArrayList originalList = new ArrayList();
 		ArrayList tempList = new ArrayList();
 		
