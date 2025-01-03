@@ -32,6 +32,8 @@ public class AlertWithoutSwitchTo {
 
 		Alert alert = wait.until(ExpectedConditions.alertIsPresent());
 
+		// Accept the alert
+		
 		alert.accept();
 
 		driver.close();
